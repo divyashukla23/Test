@@ -1,0 +1,50 @@
+/* Define your colors */
+:root {
+    --sepia: #fff5e4;
+    --purple: #7c4657;
+  }
+  
+  /* Set the base font size for the HTML element */
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    margin: 0;
+    padding: 3rem 0;
+    font-family: Roboto, sans-serif;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    background-color: var(--sepia);
+    color: var(--purple);
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  
+  h1, h2, p {
+    margin: 3rem 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 30px;
+  }
+  
+  hr {
+    display: block;
+    position: relative;
+    width: 100vw;
+    height: 2px;
+    margin: 3rem 0 5rem -50vw;
+    left: 50%;
+    border: none;
+    border-bottom: 2px dashed rgba(var(--purple), 0.25);
+    float: left;
+  }
+  
+  /* Clear the float */
+  hr ~ * {
+    clear: both;
+  }
+  
